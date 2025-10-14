@@ -4,4 +4,6 @@ practical pieces of work based on the content  of Udemy courses covering various
 ## Content ##
 ### Course: Advanced C Programming Course, authored by Jason Fedin 
 URL: https://www.udemy.com/course/advanced-c-programming-course/
+### Course: Linux Timers Implementation & Design in C, authored by Abhishek CSEPracticals
+URL: https://udemy.com/course/wheeltimers/
 
