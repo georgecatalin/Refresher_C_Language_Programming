@@ -34,7 +34,7 @@ int main(int argc, char **argv)
     }
 
     printf("Successfully created a timer.\n");
-    printf("The id of the timer is 0x%lx.\n", (long) timer_id);
+    printf("The id of the timer is %p.\n", (void *) timer_id);
 
 
     //At this point the timer exists, but it is not running. We must use timer_settime() to fire it .
