@@ -1,3 +1,14 @@
+/* ************************************************************************************
+A wrapper timer library for POSIX timers abstracts away the low-level details, making timers much easier to use.
+
+ Why Make a Wrapper?
+
+    Hide the complexity of POSIX timer setup (sigevent, itimerspec, etc.)
+    Provide easy-to-use functions for creating, starting, stopping, and deleting timers.
+    Allow callbacks with user data (using sival_ptr or sival_int).
+    Optionally, add error handling, logging, or thread-safe features.
+***************************************************************************************/
+
 #include "timer_wrap.h"
 
 

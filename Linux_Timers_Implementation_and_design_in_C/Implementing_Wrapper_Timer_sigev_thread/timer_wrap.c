@@ -46,6 +46,7 @@ int timer_stop_wrapper(my_timer_t *t)
     if(timer_settime(t->timer_id,0,&itstopped,NULL) == -1)
     {
         perror("Error when stopping");
+        timer_delete(t->timer_id);
         return EXIT_FAILURE;
     }
     else
