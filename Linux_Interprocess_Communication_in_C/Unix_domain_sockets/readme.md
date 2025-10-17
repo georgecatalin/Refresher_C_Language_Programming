@@ -1,6 +1,4 @@
-Absolutely! Let’s break down **Unix Domain Sockets IPC** in a simple, digestible way.
-
----
+# Unix Domain Sockets
 
 ## What are Unix Domain Sockets?
 
@@ -12,7 +10,3 @@ Think of it like a phone line between two apps, but only inside your computer.
 - **Unrelated processes:** Programs don’t have to be parent-child.
 
 ---
-
-**In summary:**  
-Unix Domain Sockets are a fast, easy way for two programs on the same computer to send and receive messages, using a file in `/tmp` as their “meeting point.”  
-If you want, I can walk through the code line by line!
